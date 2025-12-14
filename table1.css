@@ -1,0 +1,42 @@
+/* Table styling - feel free to customize! */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 15px;
+  color: #1a1a2e;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+thead th {
+  background: linear-gradient(135deg, #4517B4 0%, #6366f1 100%);
+  color: white;
+  font-weight: 600;
+}
+
+tbody th {
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+tbody tr:nth-child(even) td {
+  background: #f8f9fa;
+}
+
+tbody tr:hover td,
+tbody tr:hover th {
+  background: #e8f4f8;
+}
