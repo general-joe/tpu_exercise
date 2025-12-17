@@ -1,0 +1,84 @@
+/* Registration form styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 1.8em;
+}
+
+p {
+  color: #a0a0a0;
+  margin-bottom: 30px;
+}
+
+form {
+  background: #252530;
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  color: #e0e0e0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #3a3a4a;
+  border-radius: 8px;
+  background: #1a1a2e;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4517B4;
+  box-shadow: 0 0 0 3px rgba(69, 23, 180, 0.2);
+}
+
+input::placeholder {
+  color: #666;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #4517B4 0%, #6366f1 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(69, 23, 180, 0.4);
+}
