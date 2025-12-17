@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+    <style>
+      input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="#">
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" />
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" />
+      <input type="submit" value="Submit" />
+
+      <h1>This is for radio button</h1>
+
+      <input type="radio" id="female" name="gender" />
+      <label for="female" id="female">Female</label> <br /><br />
+      <input type="radio" id="male" name="gender" />
+      <label for="male" id="male">Female</label>
+
+      <h1>This is for check out button</h1>
+      <p>Select all the regional capitals you have visited in Ghana</p>
+      <input type="checkbox" id="sunyani" name="sunyani" />
+      <label for="sunyani" id="sunyani">Sunyani</label><br />
+
+      <input type="checkbox" id="tchiman" name="techiman" />
+      <label for="techiman" id="techiman">Techiman</label><br />
+
+      <input type="checkbox" id="accra" name="accra" />
+      <label for="accra" id="accra">Accra</label><br />
+
+      <input type="checkbox" id="wenchi" name="wenchi" />
+      <label for="wenchi" id="wenchi">Wenchi</label><br />
+
+      <input type="checkbox" id="goasu" name="goasu" />
+      <label for="goasu" id="goasu">Goasu</label>
+
+      <h1>This is for selection button</h1>
+
+      <select id="countries" name="countries">
+        <option selected disabled value="select your country">
+          Select your country
+        </option>
+        <option value="ghana">Ghana</option>
+        <option value="usa">USA</option>
+        <option value="british">British</option>
+      </select>
+
+      <h2>DropDown List</h2>
+      <label for="cars">Choose a car</label>
+      <select name="cars" id="cars">
+        <option value="tayota">Tayota</option>
+        <option value="volva">Volva</option>
+        <option value="bmw">BMW</option>
+      </select>
+
+      <h2>Text area</h2>
+      <label for="bio">Bio</label>
+      <textarea name="bio" id="bio" rows="4" cols="50"> </textarea>
+    </form>
+  </body>
+</html>
