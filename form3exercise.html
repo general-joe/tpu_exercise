@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3 Exercise</title>
+    <link rel="stylesheet" href="./form3exercise.css">
+</head>
+<body>
+    <!-- Exercise 3: Developer Survey Form
+     Use radio buttons, checkboxes, and selects -->
+
+<div class="survey-container">
+  <h1>🧑‍💻 Developer Survey 2024</h1>
+  <p>Help us understand the African developer community!</p>
+
+  <form action="/survey" method="POST">
+    
+    <!-- Radio Buttons: Favorite Programming Language -->
+    <!-- Use <fieldset> and <legend>, all radios need same name -->
+    <fieldset>
+      <legend>What's your favorite programming language?</legend>
+      <!-- Add at least 4 radio button options here -->
+      <!-- Example: <input type="radio" name="language" value="javascript" id="js"> -->
+        
+
+      <input type="radio" id="js" name="language" value="javascript">
+      <label for="js">JavaScript</label>
+
+      <input type="radio" id="python" name="language" value="python">
+      <label for="python">Python</label>
+
+      <input type="radio" id="java" name="language" value="java">
+      <label for="java">Java</label>
+
+      <input type="radio" id="cpp" name="language" value="cpp">
+      <label for="cpp">C++</label>
+      
+    </fieldset>
+    
+    <!-- Checkboxes: Skills You Have -->
+    <!-- Multiple can be selected, use same name with different values -->
+    <fieldset>
+      <legend>What skills do you have? (Select all that apply)</legend>
+      <!-- Add at least 5 checkbox options here -->
+      <!-- Example: <input type="checkbox" name="skills" value="html" id="html"> -->
+      <input type="checkbox" id="html" name="skills" value="html">
+      <label for="html">HTML</label>
+
+      <input type="checkbox" id="css" name="skills" value="css">
+      <label for="css">CSS</label>
+
+      <input type="checkbox" id="javascript" name="skills" value="javascript">
+      <label for="javascript">JavaScript</label>
+
+      <input type="checkbox" id="react" name="skills" value="react">
+      <label for="react">React</label>
+
+      <input type="checkbox" id="node" name="skills" value="node">
+      <label for="node">Node.js</label>
+      
+    </fieldset>
+    
+    <!-- Select Dropdown: Experience Level -->
+    <div class="form-group">
+      <label for="experience">Years of Experience</label>
+      <select id="experience" name="experience" required>
+        <!-- Add a disabled placeholder option and at least 4 other options -->
+        <option value="" disabled selected>Select your experience level</option>
+        <option value="0-1">0–1 years</option>
+        <option value="2-3">2–3 years</option>
+        <option value="4-6">4–6 years</option>
+        <option value="7+">7+ years</option>
+        
+      </select>
+    </div>
+    
+    <!-- Additional Info -->
+    <div class="form-group">
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="" disabled selected>Select your country</option>
+        <option value="kenya">🇰🇪 Kenya</option>
+        <option value="nigeria">🇳🇬 Nigeria</option>
+        <option value="south-africa">🇿🇦 South Africa</option>
+        <option value="ghana">🇬🇭 Ghana</option>
+        <option value="rwanda">🇷🇼 Rwanda</option>
+        <option value="egypt">🇪🇬 Egypt</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    
+    <button type="submit">Submit Survey</button>
+  </form>
+</div>
+</body>
+</html>

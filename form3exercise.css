@@ -1,0 +1,120 @@
+/* Survey form styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.survey-container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+fieldset {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+legend {
+  font-weight: 600;
+  color: #333;
+  padding: 0 10px;
+  font-size: 1em;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Radio and Checkbox styling */
+fieldset label {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 8px 0;
+  background: #f8f9fa;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: normal;
+}
+
+fieldset label:hover {
+  background: #e8f4f8;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  accent-color: #7c3aed;
+}
+
+/* Select styling */
+select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 1em;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+select:focus {
+  outline: none;
+  border-color: #7c3aed;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
+}

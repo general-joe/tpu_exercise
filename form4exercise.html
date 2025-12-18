@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form4 Exercise4</title>
+    <link rel="stylesheet" href="./form4exercise.css">
+</head>
+<body>
+    <!-- Exercise 4: M-Pesa Payment Form
+     Create a payment form with advanced validation -->
+
+<div class="payment-container">
+  <div class="payment-header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/M-PESA_LOGO-01.svg/200px-M-PESA_LOGO-01.svg.png" alt="M-Pesa Logo" class="logo">
+    <h1>M-Pesa Payment</h1>
+  </div>
+
+  <form action="/pay" method="POST">
+    
+    <!-- Hidden input for transaction reference -->
+    <input type="hidden" name="ref" value="TXN-2024-001">
+    <!-- Add: <input type="hidden" name="ref" value="TXN-2024-001"> -->
+    
+    <!-- Payment Details Fieldset -->
+    <!-- Wrap the payment fields in a fieldset with legend -->
+    
+      <!-- Phone Number: type="tel" with pattern for Kenyan format -->
+       <fieldset>
+         <legend>Payment Details</legend>
+      <div class="form-group">
+        <label for="phone">M-Pesa Phone Number *</label>
+        <input 
+          type="tel" 
+          id="phone" 
+          name="phone"
+          placeholder="0712345678"  pattern="^(07|01|\+254)[0-9]{8,9}$"
+          required>
+        <!-- TODO: Change type to "tel", add pattern, required -->
+        <small>Format: 07XXXXXXXX or +254XXXXXXXXX</small>
+      </div>
+      
+      <!-- Amount: type="number" with min, max, step -->
+      <div class="form-group">
+        <label for="amount">Amount (KES) *</label>
+        <input 
+          type="number" 
+          id="amount" 
+          name="amount"
+          placeholder="Enter amount" min="10" max="150000" step="1" required>
+        <!-- TODO: Change type to "number", add min="10" max="150000" step="1" required -->
+        <small>Min: KES 10 | Max: KES 150,000</small>
+      </div>
+      
+      <!-- Scheduled Date: type="date" (optional) -->
+      <div class="form-group">
+        <label for="schedule">Schedule Payment (Optional)</label>
+        <input 
+          type="date" 
+          id="schedule" 
+          name="schedule">
+        <!-- TODO: Change type to "date" -->
+      </div>
+      
+      <!-- Reference Note -->
+      <div class="form-group">
+        <label for="note">Payment Note</label>
+        <input 
+          type="text" 
+          id="note" 
+          name="note"
+          maxlength="50"
+          placeholder="e.g., Rent payment">
+      </div>
+       </fieldset>
+    
+    <!-- End of fieldset -->
+    
+    <button type="submit">
+      <span>💳</span> Pay Now
+    </button>
+    
+    <p class="security-note">🔒 Secured by Safaricom M-Pesa</p>
+  </form>
+</div>
+</body>
+</html>
