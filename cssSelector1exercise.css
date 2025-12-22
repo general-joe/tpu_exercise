@@ -1,0 +1,57 @@
+/* Base styling - already done for you */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ecfdf5;
+  margin: 0;
+  padding: 20px;
+}
+
+.zoo-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ============================================ */
+/*  EXERCISE 1: Practice Your Selectors!       */
+/* ============================================ */
+
+/* STEP 1: Element Selector
+   Target ALL paragraphs using just the tag name */
+p {
+  /* Add: color: #444; */
+  color: #444;
+}
+
+/* STEP 2: Class Selector  
+   Target elements with class="animal-card" */
+.animal-card {
+  /* Add: background-color: #f0f9ff; */
+  background-color: #f0f9ff;
+  /* Add: padding: 15px; */
+  padding: 15px;
+  /* Add: border-radius: 8px; 
+  */
+    border-radius: 8px;
+  margin-bottom: 15px;
+  
+   
+  
+    
+}
+
+/* STEP 3: ID Selector
+   Target the element with id="safari-title" */
+#safari-title {
+  /* Add: color: #065f46; */
+  color: #065f46;
+  
+  /* Add: font-size: 28px; */
+    font-size: 28px;
+}
+
+/* STEP 4: Grouped Selector
+   Target h1, h2, AND h3 all at once */
+h1, h2, h3 {
+  /* Add: font-family: Georgia, serif; */
+  font-family: Georgia, serif;
+}
