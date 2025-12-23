@@ -1,0 +1,74 @@
+/* Base styling - already done for you */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  color: #78350f;
+  margin-bottom: 10px;
+}
+
+/* ============================================ */
+/*  EXERCISE 2: Practice CSS Properties!       */
+/* ============================================ */
+
+/* STEP 1: Style the recipe card container */
+.recipe-card {
+  /* Add: background-color: #fffbeb; */
+   background-color: #fffbeb;
+  /* Add: padding: 25px; */
+  padding: 25px;
+  /* Add: border-radius: 12px; */
+   border-radius: 12px;
+  /* Add: border: 2px solid #f59e0b; */
+   border: 2px solid #f59e0b;
+  max-width: 400px;
+}
+
+/* STEP 2: Style the recipe title */
+.recipe-title {
+  /* Add: color: #92400e; */
+  color: #92400e;
+  /* Add: font-size: 24px; */
+  font-size:24px ;
+  /* Add: text-align: center; */
+  text-align: center;
+  /* Add: margin-bottom: 20px; */
+  margin-bottom: 20px ;
+}
+
+/* STEP 3: Style each ingredient item */
+.ingredient {
+  /* Add: background-color: white; */
+  background-color: white;
+  /* Add: padding: 10px; */
+  padding:10px ;
+  /* Add: margin-bottom: 8px; */
+  margin-bottom: 8px;
+  /* Add: border-radius: 6px; */
+  border-radius: 6px;
+}
+
+/* STEP 4: Style the cooking tip */
+.cooking-tip {
+  /* Add: font-weight: bold; */
+  font-weight: bold;
+  /* Add: color: #dc2626; */
+  color: #dc2626;
+
+  /* Add: border: 1px dashed #dc2626; */
+  border: 1px dashed #dc2626;
+
+  /* Add: padding: 15px; */
+  padding: 15px;
+  /* Add: text-align: center; */
+  text-align: center;
+  margin-top: 20px;
+}
