@@ -1,0 +1,24 @@
+/* Add line-height and letter-spacing */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  /* Add letter-spacing */
+  letter-spacing: 2px;
+}
+
+.content {
+  font-size: 16px;
+  /* Add line-height for readability */
+  line-height: 1.6;
+}
+
+.spaced {
+  font-size: 14px;
+  text-transform: uppercase;
+  /* Add more letter-spacing */
+  letter-spacing: 4px;
+}

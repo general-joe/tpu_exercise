@@ -1,0 +1,24 @@
+/* Style text decorations */
+.container {
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+}
+
+.link {
+  color: #0066cc;
+  /* Add underline */
+  text-decoration: underline;
+}
+
+.deleted {
+  color: #999;
+  /* Add strikethrough */
+  text-decoration: line-through;
+}
+
+.nav-link {
+  color: #333;
+  margin-right: 15px;
+  /* Remove underline */
+  text-decoration: none;
+}
