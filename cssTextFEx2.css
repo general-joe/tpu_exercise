@@ -1,0 +1,21 @@
+/* Add font-weight and font-style */
+.container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  /* Make this bold */
+  font-weight: bold;
+  
+}
+
+.emphasis {
+  /* Make this italic */
+  font-style: italic;
+}
+
+.light-text {
+  /* Make this lighter weight */
+  font-weight: 300;
+}

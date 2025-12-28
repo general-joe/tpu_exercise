@@ -1,0 +1,84 @@
+/* Base styling - already done for you */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.dashboard-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Purple card is already styled for reference */
+.card-purple {
+  background-color: #a855f7;
+  color: white;
+}
+
+/* ============================================ */
+/*  EXERCISE 3: Practice CSS Values!           */
+/* ============================================ */
+
+/* STEP 1: Use PERCENTAGE for width */
+.dashboard {
+  /* Add: width: 80%; */
+  width: 80%;
+  /* Add: background-color: #1e293b; */
+  background-color: #1e293b;
+  /* Add: padding: 30px; */
+  padding: 30px;
+  /* Add: border-radius: 20px; */
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+/* STEP 2: Use PIXEL values for spacing */
+.stat-card {
+  /* Add: padding: 20px; */
+  padding: 20px;
+  /* Add: border-radius: 15px; */
+  border-radius: 15px;
+  /* Add: margin-bottom: 15px; */
+  margin-bottom: 15px;
+}
+
+/* STEP 3: Use HEX color values */
+.card-green {
+  /* Add: background-color: #22c55e; */
+  background-color: #22c55e;
+  /* Add: color: #ffffff; */
+  color: #ffffff;
+}
+
+/* STEP 4: Use RGB color values */
+.card-blue {
+  /* Add: background-color: rgb(59, 130, 246); */
+  background-color: rgb(59, 130, 246);
+  /* Add: color: rgb(255, 255, 255); */
+  color:  rgb(255, 255, 255);
+}
+
+/* STEP 5: Use EM unit and keyword values */
+.stat-number {
+  /* Add: font-size: 2em; */
+  font-size: 2em;
+  /* Add: font-weight: bold; */
+  font-weight: bold;
+  /* Add: margin-bottom: 5px; */
+  margin-bottom: 5px;
+}
+
+/* STEP 6: Use REM unit */
+.stat-label {
+  /* Add: font-size: 0.9rem; */
+  font-size:0.9rem ;
+  /* Add: opacity: 0.8; */
+  opacity: 0.8;
+}

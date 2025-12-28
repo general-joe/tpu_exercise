@@ -1,0 +1,16 @@
+/* Style the heading and paragraph fonts */
+.container {
+  padding: 20px;
+}
+
+h1 {
+  /* Add font-family and font-size here */
+  font-family: 'Arial', sans-serif;
+    font-size: 32px;
+}
+
+p {
+  /* Add font-family and font-size here */
+  font-family: 'Georgia', serif;
+    font-size: 16px;
+}

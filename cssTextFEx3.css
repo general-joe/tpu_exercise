@@ -1,0 +1,22 @@
+/* Align the text differently */
+.container {
+  padding: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  /* Center align */
+  text-align: center;
+}
+
+.content {
+  /* Justify align */
+  text-align: justify;
+}
+
+.footer {
+  /* Right align */
+  text-align: right;
+  margin-top: 20px;
+  color: #666;
+}
