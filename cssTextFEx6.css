@@ -1,0 +1,25 @@
+/* Add text-transform and colors */
+.container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  /* Make uppercase and blue */
+  text-transform: uppercase;
+  color: #2563eb;
+}
+
+.subtitle {
+  font-size: 18px;
+  /* Capitalize each word */
+  text-transform: capitalize;
+}
+
+.highlight {
+  padding: 2px 6px;
+  border-radius: 3px;
+  /* Add red color and light red background */
+  color: #dc2626;
+  background-color: #fef2f2;
+}
