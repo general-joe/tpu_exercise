@@ -1,0 +1,24 @@
+.container {
+  /* Add display: flex */
+  /* Add align-items to center vertically */
+  /* Add gap between items */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: #1e293b;
+  min-height: 200px;
+  border-radius: 12px;
+}
+
+.item {
+  padding: 15px 25px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.small { font-size: 12px; }
+.medium { font-size: 16px; }
+.large { font-size: 24px; padding: 25px 35px; }
