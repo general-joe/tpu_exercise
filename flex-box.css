@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+.item {
+  width: 60px;
+  height: 60px;
+  background-color: coral;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  background-color: lightblue;
+}
+.item2 {
+  background-color: lightgreen;
+}
+.item3 {
+  background-color: lightpink;
+}
+
+.flex-nav {
+  display: flex;
+  background-color: aquamarine;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.flex-nav li a {
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+.flex-nav li a:hover {
+  background-color: blue;
+  color: tomato;
+}
