@@ -1,0 +1,31 @@
+/* Create a grid with mixed column and row sizes */
+.grid {
+  /* Add display: grid */
+  display: grid;
+  /* Add grid-template-columns: 200px 1fr 1fr */
+  grid-template-columns: 200px 1fr 1fr;
+  /* Add grid-template-rows: auto 200px auto */
+  grid-template-rows: auto 200px auto;
+  /* Add gap */
+  gap: 15px;
+  padding: 20px;
+  background: #0f172a;
+  border-radius: 12px;
+  min-height: 400px;
+}
+
+.item {
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header { background: #ef4444; }
+.nav { background: #f97316; }
+.sidebar { background: #eab308; color: #000; }
+.main { background: #22c55e; }
+.aside { background: #3b82f6; }
+.footer { background: #8b5cf6; }
