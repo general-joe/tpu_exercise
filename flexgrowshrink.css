@@ -1,0 +1,45 @@
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  min-height: 200px;
+}
+
+.sidebar {
+  /* Add flex: 0 0 200px */
+  flex: 0 0 200px;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content {
+  /* Add flex: 1 to grow */
+  flex: 1;
+  background: #3b82f6;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.aside {
+  /* Add flex: 0 0 150px */
+  flex: 0 0 150px;
+  background: #10b981;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h4 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
