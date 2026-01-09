@@ -1,0 +1,49 @@
+.layout {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr auto;
+  gap: 15px;
+  padding: 20px;
+  background: #0f172a;
+  border-radius: 12px;
+  min-height: 500px;
+}
+
+.header {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  /* Make header span all columns */
+  grid-column: 1 / -1;
+}
+
+.sidebar {
+  background: linear-gradient(135deg, #f97316, #eab308);
+  /* Make sidebar span 2 rows */
+  grid-row: 2 / 4;
+}
+
+.main {
+  background: linear-gradient(135deg, #22c55e, #14b8a6);
+  /* Make main span columns 2-3 */
+  grid-column: 2/4;
+}
+
+.extra {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+}
+
+.footer {
+  background: linear-gradient(135deg, #64748b, #475569);
+  /* Make footer span all columns */
+  grid-column: 1/-1;
+}
+
+.header, .sidebar, .main, .extra, .footer {
+  padding: 25px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
