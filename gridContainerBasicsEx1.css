@@ -1,0 +1,22 @@
+/* Create a basic 3-column grid */
+.grid-container {
+  /* Add display: grid */
+  display: grid;
+  /* Add grid-template-columns for 3 equal columns */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Add gap between items */
+  gap: 20px;
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 12px;
+}
+
+.item {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
