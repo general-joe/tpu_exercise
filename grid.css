@@ -1,0 +1,29 @@
+.magazine-layout {
+    display: grid;
+    grid-template-columns: [left-start] 1fr [left-end right-start] 2fr  ;
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+
+.header .footer{
+    grid-column: left-start / right-end;
+}
+
+.main-article{
+    grid-column: left-start / left-end;
+    grid-row: 2/span 2;
+
+}
+
+.side-article1{
+    grid-column: right-start / right-end;
+    grid-row: 2;
+}
+
+.side-article1{
+    grid-row: 2;
+}
+.side-article2{
+    grid-row: 2;
+}
