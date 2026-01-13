@@ -1,0 +1,18 @@
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-container p {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+}
