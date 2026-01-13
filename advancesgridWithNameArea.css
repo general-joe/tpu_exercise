@@ -1,0 +1,110 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 220px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  /* Add grid-template-areas */
+   grid-template-areas:
+    "header header header"
+    "sidebar main aside"
+    "footer footer footer";
+  
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  border-radius: 16px;
+  min-height: 600px;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.dash-header {
+  /* Add grid-area: header */
+   grid-area: header;
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+}
+
+.dash-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.dash-sidebar {
+  /* Add grid-area: sidebar */
+  grid-area: sidebar;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  color: #94a3b8;
+}
+
+.dash-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dash-sidebar li {
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dash-sidebar li:hover {
+  background: #334155;
+  color: white;
+}
+
+.dash-main {
+  /* Add grid-area: main */
+  grid-area: main;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.dash-main h2 {
+  margin: 0 0 15px;
+  color: #1e293b;
+}
+
+.dash-main p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.dash-aside {
+  /* Add grid-area: aside */
+  grid-area: aside;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+}
+
+.dash-aside h3 {
+  margin: 0 0 20px;
+  color: #22c55e;
+}
+
+.dash-aside p {
+  margin: 10px 0;
+  color: #94a3b8;
+}
+
+.dash-footer {
+  /* Add grid-area: footer */
+   grid-area: footer;
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: #64748b;
+}
+
+.dash-footer p {
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+.responsive-box {
+  width: 100%;
+  height: 150px;
+  background-color: lightblue;
+}
+
+
+@media (min-width:600px){
+    .responsive-box {
+        background-color: lightgreen;
+    }
+}
+
+
+@media (min-width:900px){
+    .responsive-box {
+        background-color: lightcoral;
+    }
+}
