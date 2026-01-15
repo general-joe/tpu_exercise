@@ -1,0 +1,10 @@
+.responsive-form {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .responsive-form {
+    flex-direction: column;
+  }
+}
