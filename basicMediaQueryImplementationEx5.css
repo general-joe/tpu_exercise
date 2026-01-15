@@ -1,0 +1,15 @@
+.section {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .c {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .b {
+    display: none;
+  }
+}
